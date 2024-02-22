@@ -1,0 +1,56 @@
+.tituloprincipal{
+    padding-left: 20px;
+}
+
+#barberiaa{
+    width: 100%;
+
+}
+
+.bloqueprincipal{
+    background: #cccccc;
+    padding: 30px;
+}
+.titulocentrado{
+    text-align: center;
+}
+
+
+    p{
+        text-align:center;
+    }
+
+        em strong{
+            color: red;
+
+        }
+
+        
+        #mision{
+            font-size: 30px;
+        }
+
+.diferenciales{
+    background: #ffff;
+    padding: 30px;
+    
+}
+
+
+.items{
+    font-style: italic;
+    font-size: 25px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 25;
+    margin-right: 15%;
+}
+
+
+.imagendiferenciales{
+    width: 25%;
+    
+}

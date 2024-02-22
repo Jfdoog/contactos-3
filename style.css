@@ -1,0 +1,162 @@
+header{
+    background-color: #bbb;
+    padding: 20px 0 ;
+}
+.caja{
+    width:940px ;
+    position: relative;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right:0;
+
+
+}
+nav li {
+display: inline;
+margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration:underline;
+
+}
+
+
+.Productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+.Productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px ;
+    box-sizing: border-box;
+    border: 5px outset #000000;
+    border-radius: 20px 15px 35px 45px;
+}
+
+.Productos li:hover{
+    border-color: #c78c19;
+    font-size: 33px;
+}
+
+.Productos li:active{
+    border-radius: 60px;
+    border-color: aquamarine;
+}
+
+.Productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Productos li:hover h2{
+    font-size: 35px;
+}
+
+.producto-descripcion{
+    font-size: 30px;
+
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+footer{
+    text-align: center;
+    background:url(imagenes/bg.jpg);
+    padding: 25px;   
+}
+
+.copyright{
+    color:aliceblue;
+    font-size: 13px;
+    margin: 20px;
+}
+
+main{
+width: 940px;
+margin: 0  auto;
+}
+
+form{
+    margin: 40px auto;
+}
+
+form label, form legend {
+    display: block;
+    font-size:20px;
+    margin: 0px 0px 10px;
+
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: orange;
+    border: none;
+    border-radius: 25px;
+    transition: 2s all;
+    cursor: pointer;
+
+}
+
+.enviar:hover{
+    transform:scale(1.10) rotate(1deg) ;
+    background: darkolivegreen;    
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: darkorange;
+    font-weight: bold;
+
+}
+
+tbody{
+    background: #c87777;
+}
+ 
+td,th{
+    border: 2px solid;
+    padding: 8px 15px;
+}
+
